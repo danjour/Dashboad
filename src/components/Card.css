@@ -1,0 +1,50 @@
+.Card{
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px;
+    display:flex;
+    border-top:3px solid;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 200px;
+    background-color: #252B43;
+    font-family: 'DM Mono', monospace;
+    display: flex;
+    text-align: center;
+    text-justify: auto;
+}
+
+
+.Card .Content{
+    flex-grow:1;
+    margin-bottom: -39%;
+    margin-top: -40px;
+    background-color: #252B43;
+    color: #b3cccc;
+    padding: 60px;
+}
+
+.Card .Footer{
+    flex-grow:1;
+    margin-bottom: 0%;
+    margin-top: -26px;
+    background-color: #252B43;
+    color: #b3cccc;
+}
+
+.Card .Numbers{
+    padding-top: 10px;
+    background-color: #252B43;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    font-weight:bold;
+}
+.Card .Icone{
+    height: 20px;
+    width: 20px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+
+
+}

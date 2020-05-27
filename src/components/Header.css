@@ -1,0 +1,36 @@
+.Header {
+    overflow: hidden;
+    display:inline-flexbox;
+    font-family: 'DM Mono', monospace;
+    text-align: left;
+    margin-left: 50px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    min-width: 100px;
+    font-family: 'DM Mono', monospace;
+    display: flex;
+    text-align: left;
+    text-justify: auto;
+}
+.Header .Titulo{
+    margin-top: -5px;
+    margin-bottom: -15px;
+    font-size: 25px;
+    font-weight:bold;
+ 
+    
+}
+
+.Header .Sub{
+    color: #8D95C3;
+    margin-top: 13px;
+    font-size: 15px;
+}
+
+.Header .right{
+    font-family: 'DM Mono', monospace;
+    text-align: right;
+    text-justify: auto;
+    
+}
